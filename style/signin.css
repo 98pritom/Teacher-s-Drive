@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Manrope&family=Poppins:wght@400;700&display=swap"); 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: var(--sec-text-color);
+  /* font-weight: 700; */
+}
+
 :root{
     --prim-color: #004643;
     --sec-color: #FF8036;
@@ -18,14 +27,7 @@ a:hover{
     height: 1px;
   }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    color: var(--sec-text-color);
-    /* font-weight: 700; */
-  }
+
   html {
     scroll-behavior: smooth;
   }
