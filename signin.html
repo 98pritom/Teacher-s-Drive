@@ -53,12 +53,12 @@
                 <div class="form-div">
                     <h1>Welcome back!</h1>
                     <p class="fw4">Please login to your account</p>
-                    <form>
+                    <form action="php/signinAction.php" method="post">
                         <div class="mb-3 txt_field">
-                            <input type="email" id="email" name="email" placeholder="Email">
+                            <input type="email" id="email" name="l_email" placeholder="Email">
                         </div>
                         <div class="mb-3 txt_field">
-                            <input type="text" id="pass" name="pass" placeholder="Password">
+                            <input type="text" id="pass" name="l_password" placeholder="Password">
                         </div>
                         <button type="submit" class="btn-design">Sign In</button>
                         <p>Forgot Password?</p>
